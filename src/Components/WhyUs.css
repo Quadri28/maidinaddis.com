@@ -1,0 +1,64 @@
+
+.why-us-container{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.why-us-container h2{
+    margin-bottom: 2rem;
+    font-size: 26px;
+    font-family: "Montserrat";
+}
+
+.why-us-containers{
+    display:grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 310px 310px 310px 310px;
+    
+    
+}
+
+.why-us{
+    width: 270px;
+    height: 310px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+}
+@media (max-width:768px) {
+    .why-us{
+        margin-top: 10px;
+    }
+}
+
+.second-to{
+    grid-column-start: 2;
+}
+
+.why-us-title{
+    margin: 2rem auto;
+    font-size: 26px;
+    font-family: "Montserrat";
+    letter-spacing: 1.35px;
+}
+
+.why-us-icon{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #929292;
+}
+.why-us-description{
+    font-size: 18px;
+    color: #929292;
+}
+
+@media (max-width:768px) {
+    .why-us-containers{
+        display: block;
+        margin: 0 auto 15px ;
+    }
+    
+}

@@ -1,0 +1,71 @@
+
+.outermost-div{
+    width: 24rem;
+    height: 24rem;
+    border: solid .5px #ddd;
+    border-radius: 100%;
+    box-shadow: 0 0 15px #ddd;
+    padding:0  .6rem .8rem;
+
+}
+
+.inner-div{
+    width: 19rem;
+    height: 19rem;
+    border: solid .5px #ddd;
+    border-radius: 100%;
+    box-shadow: 0 0 15px #ddd;
+    position: relative;
+    margin: 2rem auto;
+    padding: 1rem;
+   
+}
+.inner-div-content{
+    margin-left: 5rem;
+    margin-right: .5rem;
+}
+ .inner-div p, .inner-div h2{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #929292;
+ }
+.inner-div h2 {
+    text-align: left;
+    margin: 6rem auto 2rem;
+    color: black;
+}
+.icon-div{
+    width: 4rem;
+    height: 5rem;
+    border: solid .5px #ddd;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #ddd;
+    padding-left: 1rem;
+    position: absolute;
+    margin-top: 10rem;
+    box-shadow: 10px 0 #ddd;
+
+}
+.circular-icons{
+width: 3rem;
+height: 3rem;
+position: relative;
+margin: 1rem auto;
+}
+
+.circulars{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+@media (max-width:768px){
+    .circulars{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-left: 2rem;
+    }
+}

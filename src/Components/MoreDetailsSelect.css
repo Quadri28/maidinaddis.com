@@ -1,0 +1,40 @@
+
+.more-details-p{
+    text-align: center;
+    font-size: 26px;
+    margin: 2rem auto;
+    font-family: "Montserrat";
+    padding-top: 2rem;
+    letter-spacing: .78px;
+}
+
+.more-details-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 2rem 3rem;
+}
+
+.more-select{
+    height: 4rem;
+    font-size: medium;
+    border: solid .2px #ddd;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Montserrat';
+}
+
+select:focus{
+border: solid 1px #0fc1a7;
+box-shadow: 0 0 8px #0fc1a7;
+}
+
+
+@media (max-width:768px) {
+    .more-details-top{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+}

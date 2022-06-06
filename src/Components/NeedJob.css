@@ -1,0 +1,166 @@
+
+.need-job-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 1rem 2rem 2rem;
+    gap: 2rem;
+    width: 90%;
+}
+.need-job-top-container{
+    width: 90%;
+    text-align: center;
+    border: solid 1px #ddd;
+    padding-top: 1rem;
+    box-shadow: 0 0 20px #ddd;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 7rem;
+    border-radius: .5rem;
+}
+.need-job-top-container-p{
+    text-align: center;
+    font-size: 26px;
+  font-family: 'Montserrat';
+  margin: 2rem auto 3rem;
+  letter-spacing: .78px;
+}
+.need-job-para{
+    font-size: 26px;
+    font-family: 'Montserrat';
+    letter-spacing: .78px;
+}
+
+.need-job-top-heading-p{
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    width: 50%;
+    line-height: 40px;
+    color: #929292;
+    letter-spacing: .54px;
+}
+.need-job-top-p{
+    text-align: center;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    letter-spacing: .78px;
+    margin: 0 auto;
+}
+
+.need-job-top input{
+    height: 4rem;
+    width: 98%;
+    font-size: large;
+    border-radius: 5px;
+    border: solid .5px #ddd;
+    padding-left:  .7rem;
+}
+.need-job-top select{
+    width: 100%;
+    height: 4rem;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    border: solid .5px #ddd;
+    padding: .2rem;
+
+}
+
+.need-job-radio input{
+    width: 16px;
+    height: 16px;
+    margin-left: 1rem;
+}
+
+.need-job-radio p{
+    text-align: left;
+    font-size: 18px;
+}
+
+.need-job-continue{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.need-job-footer{
+    width: 90%;
+    border-radius: 5px;
+    border:solid 1px #ddd;
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+    padding: 1rem;
+}
+.need-job-footer a{
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.need-job{
+    border: solid 1px #ddd;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.need-job-icon{
+    width: 2rem;
+    height: 2rem;
+    color: #929292;
+    grid-column-start: 3;
+}
+@media (max-width:768px){
+    .need-job-top{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+    }
+    .need-job-top-container{
+        margin: 0;
+        width: fit-content;
+    }
+    .need-job-top-heading-p{
+        width: 80%;
+    }
+    .need-job-top-p{
+        width: 80%;
+    }
+}
+
+
+
+label.file-button {
+    width:100%;
+    height:3rem;
+    padding-top: 1rem;
+    overflow:hidden;
+    position:relative;
+    cursor: pointer;
+    color: #929292;
+    border: solid 1px #ddd;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+label  span input {
+    z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    top: -2px;
+    left: -700px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    margin: 0;
+    padding:0;
+}

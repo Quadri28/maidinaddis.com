@@ -1,0 +1,46 @@
+
+.end_card{
+    width: max-content;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 40rem #ddd;
+    margin: 10rem auto 2rem;
+    height: 15rem;
+    border: none;
+    padding-top: .5rem;
+
+}
+.end_card h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.end_card p {
+text-align: center;
+margin: 2rem;
+font-size: 26px;
+width: 990px;
+color: #0fc187;
+}
+
+.end_card_cancel{
+    float: right;
+    color: #929292;
+    font-size: 26px;
+    margin-right: 10px;
+}
+.end_card_cancel:hover{
+    color: red;
+}
+
+@media (max-width:768px) {
+    .end_card{
+        width: 25rem;
+        height: max-content;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .end_card p{
+        width: 90%;
+        
+    }
+}

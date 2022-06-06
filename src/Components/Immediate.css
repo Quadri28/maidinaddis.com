@@ -1,0 +1,32 @@
+
+.immediate-container{
+width: max-content;
+text-transform: capitalize;
+padding: 2rem;
+text-align: center;
+margin: 1rem;
+}
+
+.immediate-container p{
+    margin-bottom: 1rem;
+}
+.immediate-container button{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    border: solid 1px;
+    margin-top: 2rem;
+}
+
+.immediate-name{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: large;
+}
+
+.immediate-image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem 2rem 1rem;
+}

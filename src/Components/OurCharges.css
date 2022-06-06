@@ -1,0 +1,51 @@
+
+
+.conditions{
+    margin: 3rem 2rem 4rem;
+}
+.charges-card{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+gap: .5rem;
+margin: auto 15rem;
+}
+.conditions h1{
+    font-size: 26px;
+    font-family: Georgia, 'Regular';
+    margin-bottom: 2rem;
+}
+.conditions p{
+    color: #929292;
+    font-size: 18px;
+    font-family:Georgia, 'Regular';
+    margin-bottom: 10px;
+}
+.conditions-icon{
+    color: #0fc1a7;
+    margin-right: 10px;
+}
+ @media (max-width: 580px){
+     .charges-card{
+         display: grid;
+         grid-template-columns: 1fr;
+         margin-left: 6rem;
+     }
+ }
+.conditions{
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.conditions h1{
+    margin-bottom: .7rem;
+}
+
+.plan-close{
+    color: red;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.activated{
+    color: #0fc1a7;
+}

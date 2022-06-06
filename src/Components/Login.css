@@ -1,0 +1,102 @@
+
+.login-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 2rem 8rem 3rem;
+    gap: 1rem;
+    border: solid 1px #ddd;
+    padding: 2rem;
+    box-shadow: 0 0 10px #ddd;
+}
+.login-footer-p{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+
+@media (max-width:680px){
+    .login-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem .5rem;
+
+
+}
+.login-right svg{
+    width: 8rem;
+    height: 8rem;
+}
+.login-footer button{
+    width: 5rem;
+    height: 3rem;
+}
+
+}
+.login-left{
+    margin-left: .5rem;
+}
+
+.login-left form input{
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 4rem;
+    width:90%;
+    padding-left: 1rem;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+}
+
+.login-button{
+    box-shadow: 0 0 3px #0fc1a7;
+    font-size: 18;
+    font-family: 'Montserrat';
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    height: 65px;
+    width: 167px;
+    background-color: #0fc1a7;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-link{
+    color: #16DDE0;
+    text-decoration: underline;
+}
+.login-span{
+    margin-left: 7rem;
+    font-size:18px;
+    font-family: 'Montserrat';
+}
+form p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.login-footer{
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    font-size: large;
+    gap: 10px;
+}
+@media (max-width:768px) {
+    .login-footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.login-right{
+    text-align: center;
+}
+
+.login-left form input:focus{
+    border: solid 1px #0fc1a7;
+    box-shadow: 0 0 8px #0fc1a7;
+    
+}

@@ -1,0 +1,45 @@
+
+.immediately-header{
+    text-align: center;
+    margin: 2rem auto 3rem;
+    
+}
+
+.immediately-header{
+    width: 45rem;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Montserrat bold";
+}
+.immediately-wrapper{
+    background-color: #f8feff;
+    padding: 2rem 0;
+    margin: 3rem auto 5rem;
+}
+.immediately-container{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem ;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 3rem;
+}
+@media (max-width:768px) {
+    .immediately-container{
+        display: grid;
+        grid-template-columns: 20rem;
+    }
+    .immediately-header{
+        width: 25rem;
+    }
+    
+}
+
+.immediately-header h2 span{
+    color: #0fc187;
+}
+
+.immediately-containers{
+    border: solid 1px #ddd;
+    padding-right: 2rem;
+    justify-content: center;
+}

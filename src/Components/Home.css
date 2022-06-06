@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.gender_div{
+    background-color: #fff;
+    border: solid .5px #ddd;
+    box-shadow: 0 0 20px #ddd;
+    margin: 2rem 3rem 5rem 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80vh;
+}
+
+
+@media (max-width: 768px){
+    .gender_div{
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        height: 140vh;
+        margin-top: 0;
+    }
+    .inner_container{
+    width:max-content;
+    padding: 0 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .gender_heading{
+        margin-top: 1rem;
+
+    }.home-continue{
+        margin-left: 0;
+    }
+   .people{
+       margin-top: 2rem;
+   }
+}
+.people{
+    border: solid 1px #ddd;
+    border-radius: 5px;  
+    height: 10rem;
+    width: 12rem;
+    padding-top: 4rem;
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 10px #ddd;
+    font-family: 'Montserrat light';
+}
+.male{
+    justify-content: center;
+}
+
+.gender_heading {
+font-size: 26px;
+font-family: 'Montserrat';
+font-weight: 400;
+
+}
+.active{
+    color:#0fc1a7;
+    border: solid 1px #0fc1a7;
+    box-shadow: 0 0 10px #0fc1a7;
+}
+
+.center_icon{
+    height: 4rem;
+    width: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+.home-continue{
+    border-radius: 3rem;
+    height: 4rem;
+    width: 9rem;
+    background-color: #0fc187;
+    color: #fff;
+    border: none;
+    padding: .5rem;    
+    box-shadow: 0 0 10px #0fc187;
+    cursor: pointer;
+    transition: ease-out 2s;
+    font-size: 15px;
+    margin-left: 13rem;
+
+}
+
+.gender_heading{
+    font-family: 'Montserrat';
+        font-weight: 400;
+        margin: 2rem auto;
+}
+.people{
+    height: 10rem;
+}

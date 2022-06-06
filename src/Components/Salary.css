@@ -1,0 +1,62 @@
+
+.salary-container{
+    width: 90%;
+    border: solid .5px #ddd;
+    box-shadow: 0 0 10px #ddd;
+    text-align: center;
+    margin: 2rem auto 9rem 2rem;
+    padding: .5rem;
+    border-width: 1px;
+    border-radius: 5px;
+}
+@media (max-width:680px){
+.salary-container{
+    width:max-content
+}
+.salary-p{
+    width: fit-content;
+}
+.select-salary{
+    width: 70%;
+}
+.salary-continue{
+    margin-bottom: 2rem;
+}
+
+}
+
+.salary-p{
+    margin-top: 2rem;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    width: 88%;
+    margin-left: 3rem;
+    line-height: 40px;
+}
+
+@media (max-width:768px) {
+    .salary-p{
+        font-size: medium;
+        width: 25rem;
+    }
+}
+.select-salary{
+    width: 80%;
+    margin-top: 1.5rem;
+    height: 3rem;
+}
+
+.salary-continue{
+    margin-bottom: 2rem;
+}
+  
+.select-salary{
+    width: 95%;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    font-size: 18px;
+    color: #929292;
+    padding-left: 1rem;
+    height: 4rem;
+}

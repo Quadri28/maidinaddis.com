@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+.who-heading{
+    text-align: center;
+    margin: 2rem auto;
+    width: 70%;
+    font-size: large;
+    
+}
+.who-heading h2{
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+    font-size: 45px;
+}
+.who-heading p{
+line-height: 35px;
+color:#929292;
+letter-spacing: 0.54px;
+}
+
+.who-body {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 10px;
+    color: #929292;
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.who-body p{
+    margin-right: 3rem;
+    font-size: 18px;
+    margin-top: 4rem;
+    line-height: 35px;
+    letter-spacing: .54px;
+    font-family: 'Montserrat';
+}
+@media (max-width: 768px){
+    .who-body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .who-body p{
+        margin: 1rem 0 0 2rem;
+    }
+}
+
+.man-in-wheel{
+    width: 26rem;
+    height: 26rem;
+    border-radius: 100%;
+    background-color: #0fc1a7;
+    margin: .88rem auto;
+}
+
+.laptop-man-circle{
+    width: 28rem;
+    height: 28rem;
+    border: dashed 2px #0fc1a7;
+    margin-left: 5rem;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+@media (max-width:768px) {
+    .laptop-man-circle{
+    margin-left: .5rem;
+    }
+    .man-in-wheel{
+        width: 18rem;
+        height: 18rem;
+    }
+    .laptop-man-circle{
+        width: 20rem;
+        height: 20rem;
+        margin-left: 5rem;
+    }
+}

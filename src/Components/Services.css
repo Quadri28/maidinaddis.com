@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;700&display=swap');
+
+.services-container{
+    width: 310px;
+    height: 320px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    opacity: 1;
+    align-items: center;
+    margin: 0 10px 15px ;
+    text-align: center;
+    
+}
+.first{
+    background-color: #fff4e2;
+}
+
+.second{
+    background-color: #dff9ff;
+}
+
+.third{
+    background-color: #e6e6e6;
+}
+
+.fourth{
+    background-color: #defff6;
+}
+
+.fifth{
+background-color: #ffe5e5;
+grid-column-start: 2;
+}
+.sixth{
+background-color: #ffdef4;
+}
+
+.services-header h2{
+    margin-bottom: 2rem;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    letter-spacing: 1.54px;
+}
+.icon-image{
+    margin: 1rem auto 2rem;
+
+    width: 118px;
+    height: 118px;
+}
+.services-header{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+.services-title{
+    font-size: 26px;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+}
+.services-description{
+    font-size: 18px;
+    color: #929292;
+}
+.services-head{
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    gap: 15px;
+    justify-content: center;
+}
+@media (max-width:768px) {
+    .services-head{
+        display:block;
+        margin-left: 4rem;
+    }
+}

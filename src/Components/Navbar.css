@@ -1,0 +1,176 @@
+/************* Nav-btn********/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;700&display=swap');
+.nav_btn{
+    justify-content: flex-end;
+    height: 3rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 5rem;
+}
+
+@media (max-width:768px){
+    .nav_btn{
+        padding: 7px 0 7px 10px;
+        margin-right: 0;
+    }
+}
+ 
+.btn-secondary{
+    padding: .4rem;
+    height: 2.9rem;
+    width: 9rem;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .btn-secondary{
+    width: 7rem;
+    padding: .2rem;
+  }
+}
+.btn-secondary:hover{
+    color: #0fc1a7;
+    border: solid 1px #0fc1a7;
+}
+.btn-last{
+    margin-right: 1.5rem;
+    background-color: #0fc1a7;
+    color: #fff;
+    border: none;
+}
+.btn-last:hover{
+  color: #fff;
+}
+/****************End of Nav-btn*****/
+
+/************** Nav Links********/
+.nav_elements{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-transform: capitalize;
+}
+
+/************** End of Nav List*******/
+
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    border-top: solid 1px #ddd;
+    box-shadow: 0 5px #dddddd;
+  }
+
+.brand-name h1 {
+    text-decoration: none;
+    color: #0fc1a7;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .brand-name p{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    text-decoration: none;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .navigation-menu {
+    margin-left: auto;
+  }
+
+.navigation-menu ul {
+    display: flex;
+    padding: 0;
+    margin-right: 5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navigation-menu.expanded ul {
+      display: block;
+    }
+  }
+
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+    font-size: large;
+    text-transform: capitalize;
+  }
+  .navigation-menu li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+
+  .navigation-menu li a:hover{
+      color:#0fc1a7;
+  }
+
+
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  .hamburger:hover {
+    background-color: #0fc1a7;
+  }
+
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .brand-name{
+        margin-left: 2rem;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .navigation-menu ul {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .navigation-menu ul {
+      position: absolute;
+      top: 75px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      height: calc(60vh - 77px);
+      background-color: white;
+      border-top: 1px solid #0fc1a7;
+    }
+    .navigation-menu li {
+      text-align: center;
+      margin: 0;
+    }
+    .navigation-menu li a {
+      color: black;
+      width: 100%;
+      padding: 3px;
+    }
+  }

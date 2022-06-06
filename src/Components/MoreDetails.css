@@ -1,0 +1,15 @@
+.more-detail-container{
+    border: none;
+    box-shadow: 0 0 20px #ddd;
+    width: 96%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width:768px) {
+    .more-detail-container{
+        margin: 0;
+        width: 100%;
+    }
+}

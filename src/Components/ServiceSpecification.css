@@ -1,0 +1,100 @@
+
+.service-specification-p{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Montserrat';
+    margin: 2rem auto 2rem;
+    letter-spacing: .78px;
+    
+}
+
+.body-switches{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 0 1rem 2rem;
+    
+}
+.switches{
+    border-bottom: solid 1px #ddd;
+}
+
+@media (max-width:768px){
+    .body-switches{
+        padding: 0 .5rem;
+    }
+}
+.switches{
+    display:flex ;
+    justify-content: space-between;
+    margin-left: .3rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+.service-continue-button{
+    text-align: center;
+}
+
+.food-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+}
+
+.other-baby-sitting{
+    display: flex;
+    width: 97%;
+    height: 3rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-size: large;
+    padding-left: 15px;
+    border: solid 1px #ddd;
+}
+.last-div{
+    display: flex;
+    border-radius: 5px;
+    height: 3rem;
+    margin: 2rem .6rem 1rem;
+    padding: 0 1rem;
+    align-items: center;
+   ;
+}
+.last-div p{
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat'
+}
+@media (max-width:768px){
+    .other-baby-sitting{
+        width: 92%;
+    }
+    .elderly-select{
+        width: 98%;
+    }
+    .service-continue-button{
+        margin-bottom: 2rem;
+    }
+    .last-div{
+        align-items: center;
+        font-size: 15px;
+    }
+}
+
+.elderly-select select{
+    width: 95%;
+    height: 3rem;
+    font-size: large;
+}
+
+.switches p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.switches p{
+    margin-bottom: 15px;
+}
+

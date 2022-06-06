@@ -1,0 +1,28 @@
+
+.how-it-works-heading{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 5rem auto 2rem 5rem ;
+    font-size: large;
+    justify-content: center;
+}
+
+.how-it-works-heading h1{
+    margin-bottom: 2rem;
+}
+.how-it-works-heading p{
+text-align: center;
+width: 90%;
+margin-left: 2rem;
+color: #929292;
+}
+
+@media (max-width:768px) {
+    .how-it-works-heading p{
+        text-align: center;
+        margin-left: 0;
+    }
+    .how-it-works-heading h1{
+        margin-right: 3rem;
+    }
+}
